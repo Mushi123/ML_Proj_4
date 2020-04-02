@@ -11,7 +11,7 @@ from sklearn.preprocessing import OneHotEncoder, StandardScaler
 
 (x_train, y_train), (x_test, y_test) = mnist.load_data()
 images = x_test
-# print(x_train.shape)
+
 x_train = x_train.reshape(x_train.shape[0], 28*28)
 
 
